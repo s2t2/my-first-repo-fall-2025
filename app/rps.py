@@ -44,4 +44,8 @@ elif u == "scissors" and c == "rock":
 elif u == "scissors" and c == "paper":
     print("USER WINS")
 elif u == "scissors" and c == "scissors":
+<<<<<<< HEAD
     print("TIE GAME")
+=======
+    print("TIE GAME")
+>>>>>>> d75e015f3efd2bdca7bc0961a71bb89963a2c0fb
