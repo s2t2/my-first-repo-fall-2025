@@ -4,6 +4,10 @@ import random
 VALID_OPTIONS = ["rock", "paper", "scissors"]
 
 
+def generate_random_choice():
+    return random.choice(VALID_OPTIONS)
+
+
 def determine_winner(u, c):
     if u == "rock" and c == "rock":
         return "TIE GAME"
@@ -44,7 +48,8 @@ if __name__ == "__main__":
 
     # GENERATE RANDOM COMPUTER CHOICE
 
-    computer_choice = random.choice(VALID_OPTIONS)
+    #computer_choice = random.choice(VALID_OPTIONS)
+    computer_choice = generate_random_choice()
     print("COMP:", computer_choice)
 
     # DETERMINE THE WINNER
