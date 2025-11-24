@@ -12,6 +12,7 @@ def stocks_form():
     print("STOCKS FORM...")
     return render_template("stocks_form.html")
 
+# /stocks/dashboard?symbol=SPOT
 @stocks_routes.route("/stocks/dashboard", methods=["GET", "POST"])
 def stocks_dashboard():
     print("STOCKS DASHBOARD...")
@@ -50,6 +51,7 @@ def stocks_dashboard():
 # API ROUTES
 #
 
+# /api/stocks.json?symbol=SPOT
 @stocks_routes.route("/api/stocks.json")
 def stocks_api():
     print("STOCKS DATA (API)...")
