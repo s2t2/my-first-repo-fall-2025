@@ -88,7 +88,7 @@ flask run
 
 ## Testing
 
-Run tests:
+To run tests:
 
 ```sh
 pytest

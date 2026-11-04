@@ -1,9 +1,10 @@
+# 1. IMPORTS AT THE TOP
 import random
 
-
+# 2. FOLLOWED BY ANY CONSTANTS
 VALID_OPTIONS = ["rock", "paper", "scissors"]
 
-
+# 3. FUNCTIONS OR CLASSES
 def generate_random_choice():
     return random.choice(VALID_OPTIONS)
 
@@ -28,6 +29,7 @@ def determine_winner(u, c):
     elif u == "scissors" and c == "scissors":
         return "TIE GAME"
 
+# 4. MAIN CONDITIONAL
 
 if __name__ == "__main__":
     # ONLY RUN THE CODE BELOW

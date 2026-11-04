@@ -5,3 +5,7 @@
 # the app directory has some code in it
 
 # than can be imported
+
+# it can be blank
+
+# its presence is what helps
