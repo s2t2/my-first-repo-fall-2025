@@ -68,13 +68,15 @@ Stocks dashboard:
 python -m app.stocks
 ```
 
+### Command Line App
+
 ### Web App
 
 Run the web app (then view in the browser at http://localhost:5000/):
 
 ```sh
 # if we have the FLASK_APP=web_app env var in the ".env" file:
-flask run
+# flask run
 
 # Mac OS:
 FLASK_APP=web_app flask run
